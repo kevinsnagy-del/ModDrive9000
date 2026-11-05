@@ -3,6 +3,7 @@
 ## 1.2.0
 - The installer can download content from its original authors (checked file by file against the original) and refuses to install a mod without content it needs -- POSTMORTEM 0.9.4-beta uses this for its collab content.
 - Older Mod Drive versions skip mods that need this one instead of installing them half-way.
+- (2026-11-06 refresh of the 1.2.0 download) `ModDriveInstaller\THIRD-PARTY-NOTICES.txt` and the `licenses` folder: the licences of Node.js, UELib, the .NET runtime and lzo1x, which ship in this download. `ModDrive9000.exe` now carries full version information and a Windows manifest. Nothing else changed.
 
 ## 1.1.0
 - Supports the LET IT DIE update of 2026-10-20 (Steam build 25923506).
