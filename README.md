@@ -11,6 +11,19 @@ Mod Drive 9000 loads plug-ins (DLLs) into the game and lists them on a **Mod Dri
 | [POSTMORTEM](https://github.com/kevinsnagy-del/Postmortem) *(beta)* | A roguelike mode with its own save |
 | [Let Us Die](https://github.com/kevinsnagy-del/LetUsDie) *(beta)* | Online co-op through Steam |
 
+## Features
+
+- **The Mod Drive 9000 tab** in the game's options screen: every installed plug-in with its details (X) and an on / off switch (Y), and each plug-in's own options page.
+- **A plug-in host** with a stable plug-in API: plug-ins are DLLs dropped into `Binaries\Win64\ModDrive`.
+- **The installer** applies every mod's pack to your own copy of the game files, after checking they are an unmodified, supported version, and backs them up first.
+- **Updates** for Mod Drive 9000 and every plug-in, from their GitHub releases, checked and verified before anything is replaced.
+- **Health check and repair** of every file Mod Drive manages.
+- **Save backups**, automatic and on demand, for the normal save and the POSTMORTEM save, restorable together or one at a time.
+- **Quick start:** the splash screens, title movies, the Death Drive logo and the press-any-key screen are skipped (straight to the title menu), and the title's two fixed 1.25 s pauses when a game starts are gone.
+- **Game updates handled:** when LET IT DIE updates, the game asks once whether to quit and open Mod Drive 9000, which then looks for support for the new version.
+- **Open Mod Drive 9000 from inside the game**, and a desktop shortcut.
+- **Report a bug or send feedback** from the app, with the logs it needs attached (it shows exactly what is sent before you send it).
+
 ## Install
 
 1. Download `ModDrive9000-<version>.zip` from [Releases](../../releases) and close the game.
