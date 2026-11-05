@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.1.0
+- Supports the LET IT DIE update of 2026-10-20 (Steam build 25923506).
+- **The Mod Drive 9000 app** (`ModDriveInstaller\ModDrive9000.exe`): one window for your mods, updates (tick the ones you want), applying them to the game, the health check and repair, and save backups. The .bat files moved to `ModDriveInstaller\cmd`.
+- After a game update, the game now asks "Do you want to quit the game and open Mod Drive 9000?" and the app continues once the game has closed.
+- POSTMORTEM and other plug-in notices work without Let Us Die installed.
+- "Open Mod Drive 9000" from inside the game, and a desktop shortcut.
+
 ## 1.0.0 (first public release)
 - The Mod Drive 9000 tab in the options screen: plug-in list, details (X), on/off (Y).
 - Plug-in host with a stable plug-in API.
