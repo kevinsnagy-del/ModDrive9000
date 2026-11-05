@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0
+- The installer can download content from its original authors (checked file by file against the original) and refuses to install a mod without content it needs -- POSTMORTEM 0.9.4-beta uses this for its collab content.
+- Older Mod Drive versions skip mods that need this one instead of installing them half-way.
+
 ## 1.1.0
 - Supports the LET IT DIE update of 2026-10-20 (Steam build 25923506).
 - **The Mod Drive 9000 app** (`ModDriveInstaller\ModDrive9000.exe`): one window for your mods, updates (tick the ones you want), applying them to the game, the health check and repair, and save backups. The .bat files moved to `ModDriveInstaller\cmd`.
