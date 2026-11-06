@@ -27,9 +27,9 @@ Mod Drive 9000 loads plug-ins (DLLs) into the game and lists them on a **Mod Dri
 ## Install
 
 1. Download `ModDrive9000-<version>.zip` from [Releases](../../releases) and close the game.
-2. Unzip it **into the LET IT DIE folder** (Steam: right-click LET IT DIE, then *Manage*, then *Browse local files*).
-3. Unzip any plug-ins you want into the same folder.
-4. Open **`ModDriveInstaller\ModDrive9000.exe`** and choose **Apply mods to the game**. It checks that your game files are an unmodified, supported version, backs them up and your saves, then applies every mod. It takes a few minutes and needs about 3.5 GB of free space in your temp folder while it runs.
+2. Unzip it anywhere (right-click, *Extract All*) and open **`ModDriveInstaller\ModDrive9000.exe`**. It finds LET IT DIE through Steam: choose **Install Mod Drive 9000 here** and it moves into the game folder and opens from there. (Unzipping straight into the LET IT DIE folder works too.)
+3. In Mod Drive 9000: Under **Get more mods**, tick the plug-ins you want and choose **Add selected**: each is downloaded from its GitHub page, checked, and applied to the game. (Or choose **Apply mods to the game** to apply Mod Drive 9000 on its own.) Applying checks that your game files are an unmodified, supported version, backs them up and your saves, then applies every mod. It takes a few minutes and needs about 3.5 GB of free space in your temp folder while it runs.
+4. Plug-ins can also be installed by hand: unzip them into the same folder, then choose **Apply mods to the game**.
 5. Start the game. The options screen has a **Mod Drive 9000** tab.
 
 ## The Mod Drive 9000 app
