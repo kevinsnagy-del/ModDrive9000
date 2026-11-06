@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.2
+- **Progress bar:** applying, adding and updating mods show a percentage and the time taken; other actions show a moving bar.
+- "Reading your game folder" counts the seconds, so you can see it is working (the first time can take a minute).
+- **Mod Drive 9000 keeps its own log** (`app.log`, in the Logs tab): each start, which window it opened, anything that failed or was slow, and errors in the window itself. Reports from the app include it.
+- The version in the header is Mod Drive 9000's own again (it showed the installer's).
+
 ## 1.3.1
 - **Mod Drive 9000 opens in its own window on every PC.** It used to need Microsoft Edge in its usual place, and opened as a browser tab without it. The window is now Mod Drive 9000's own (built on Microsoft WebView2, part of Windows 10 and 11), with its icon in the taskbar.
 - Updates replace the window program even while it is open.
