@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.1
+- **Mod Drive 9000 opens in its own window on every PC.** It used to need Microsoft Edge in its usual place, and opened as a browser tab without it. The window is now Mod Drive 9000's own (built on Microsoft WebView2, part of Windows 10 and 11), with its icon in the taskbar.
+- Updates replace the window program even while it is open.
+
 ## 1.3.0
 - **Install from anywhere:** unzip the download anywhere (Downloads is fine) and open `ModDriveInstaller\ModDrive9000.exe`. It finds LET IT DIE through Steam, installs itself into the game folder (every file checked) and opens from there.
 - **Get more mods:** the app lists the plug-ins you do not have yet (DeatHUD, Heavenly Designs, POSTMORTEM, Let Us Die). Tick them and choose Add selected: each is downloaded from its GitHub page, checked against its SHA-256 and applied to the game in one go. No more unzipping plug-ins by hand.
