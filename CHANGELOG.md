@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.3.3
+- After an update, the mod shows "Updated" straight away instead of "Update ready" for a few seconds; the list stays on screen while Mod Drive checks GitHub again.
+- Fixed: the game's Mod Drive 9000 tab said Quick Start was not installed when it was (and the log warned about it every start).
+- Less noise in the game's log (a menu check no longer reports a "problem" on every pause menu).
+- Fixed: plug-in pop-up messages were never shown in POSTMORTEM (a filter for the game's old raid notices hid them too).
+- Fixed: text in the game's own font (used by plug-ins) could go missing for a while after a map change or on returning to the hub. Mod Drive now keeps the font, so the text always shows in the game's font.
+- Fixed a memory leak: text the game handed back to plug-ins was never freed. In long sessions it added up.
+- Slow-down reports in the log now name the plug-in function responsible, not Mod Drive's own lookup code.
+
 ## 1.3.2
 - **Progress bar:** applying, adding and updating mods show a percentage and the time taken; other actions show a moving bar.
 - "Reading your game folder" counts the seconds, so you can see it is working (the first time can take a minute).
