@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.3.4
+- **Update setting** (next to Check for updates): *tell me* (as before), *install automatically* (updates and applies them when Mod Drive 9000 opens), or *do not check* (only the button checks).
+- **Select all** and **Remove selected**: tick several mods and remove them in one go (your saves are backed up first and are not deleted).
+- Clicking a mod's row now selects it. The mod's page (features and changelog) opens from its new **More info** button.
+- Faster object lookups for every plug-in (lookups for things that are not there, and lookups by exact name, are cached).
+
 ## 1.3.3
 - After an update, the mod shows "Updated" straight away instead of "Update ready" for a few seconds; the list stays on screen while Mod Drive checks GitHub again.
 - Fixed: the game's Mod Drive 9000 tab said Quick Start was not installed when it was (and the log warned about it every start).
