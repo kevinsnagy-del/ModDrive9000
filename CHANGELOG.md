@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.5
+- Fewer stutters when a floor starts: plug-ins looking up a game function for the first time no longer search the whole game (each lookup used to freeze a frame for about 40 ms, and a new floor made dozens of them).
+
 ## 1.3.4
 - **Update setting** (next to Check for updates): *tell me* (as before), *install automatically* (updates and applies them when Mod Drive 9000 opens), or *do not check* (only the button checks).
 - **Select all** and **Remove selected**: tick several mods and remove them in one go (your saves are backed up first and are not deleted).
