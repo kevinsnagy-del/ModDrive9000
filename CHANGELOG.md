@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.3.6
+- Plug-in API: LidHudAnchorRect and LidHudWorldRect -- a filled box at an offset from a point of the screen or of the world (used by Heavenly Designs' posture bars).
+- When the game freezes for more than a second, where it was stuck is noted in nativehook-hitch-stacks.txt (helps find the cause of lag spikes).
+- Faster lookups of game objects by name (a 45 to 100 ms hitch each, several at the first floor of a session).
+- A list screen opened during a scripted scene no longer returns the fighter to normal play when it closes (the scene does that).
+- The name index no longer rebuilds itself in the middle of the hub load.
+- Fixed a stall of about one second on the first floor of every session, and many shorter ones in a session's first minutes: looking a game name up no longer walks the whole name table.
+- Fixed: the host could hold only 64 function overrides, and the mods together had reached that number. Later ones were refused silently.
+- Fewer small hitches during play: the game's manager objects are looked up once per map instead of every 10 seconds.
+- The hitch notes (nativehook-hitch-stacks.txt) also name the two busiest other threads during a freeze (the rendering thread, a loader), with their CPU time.
+
 ## 1.3.5
 - Fewer stutters when a floor starts: plug-ins looking up a game function for the first time no longer search the whole game (each lookup used to freeze a frame for about 40 ms, and a new floor made dozens of them).
 
