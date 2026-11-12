@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.3.8
+- Plug-in API: LidAddScriptResultCall -- a plug-in can read and change the answer a game script function gives to its script caller (Heavenly Designs 1.3.0 needs it: bare-fist guard, stealth finisher).
+- Freeze notes (nativehook-hitch-stacks.txt) now also record the video memory in use against its budget, the free RAM, and where the graphics threads were standing.
+- Update Heavenly Designs to 1.3.0 together with this version (it does not load on an older Mod Drive 9000).
+
 ## 1.3.7
 - Fixed: the host could hold only 16 function hooks and the mods ask for 24, so the last ones were refused at every start. In POSTMORTEM that had switched off the run-start mushroom clearing, boss rush's fresh floors, the bank and tank caps, the achievement descriptions and reward texts, and the daily box / Reward Box filters. The host now holds 64 (and more frame ticks, overrides and code patches).
 - Update Postmortem to 0.9.9-beta together with this version.
