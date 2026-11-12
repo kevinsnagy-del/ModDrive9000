@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.7
+- Fixed: the host could hold only 16 function hooks and the mods ask for 24, so the last ones were refused at every start. In POSTMORTEM that had switched off the run-start mushroom clearing, boss rush's fresh floors, the bank and tank caps, the achievement descriptions and reward texts, and the daily box / Reward Box filters. The host now holds 64 (and more frame ticks, overrides and code patches).
+- Update Postmortem to 0.9.9-beta together with this version.
+
 ## 1.3.6
 - Plug-in API: LidHudAnchorRect and LidHudWorldRect -- a filled box at an offset from a point of the screen or of the world (used by Heavenly Designs' posture bars).
 - When the game freezes for more than a second, where it was stuck is noted in nativehook-hitch-stacks.txt (helps find the cause of lag spikes).
