@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.3.9
+- Installing, updating and removing mods is much faster. The step that applies the script edits to the game took 2 to 8 minutes, depending on the mods you have; it now takes about a minute. The game files it produces are exactly the same as before, so nothing needs to be re-applied.
+
 ## 1.3.8
 - Plug-in API: LidAddScriptResultCall -- a plug-in can read and change the answer a game script function gives to its script caller (Heavenly Designs 1.3.0 needs it: bare-fist guard, stealth finisher).
 - Freeze notes (nativehook-hitch-stacks.txt) now also record the video memory in use against its budget, the free RAM, and where the graphics threads were standing.
