@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.0
+- Plug-in API: LidHudTile / LidHudTileEx -- a plug-in can draw any game texture on the HUD, whole or a part of it, with a blend mode (Postmortem 0.9.11-beta needs it for its title logo).
+- Update Postmortem to 0.9.11-beta and Let Us Die to 0.9.6-beta together with this version.
+
 ## 1.3.9
 - Installing, updating and removing mods is much faster. The step that applies the script edits to the game took 2 to 8 minutes, depending on the mods you have; it now takes about a minute. The game files it produces are exactly the same as before, so nothing needs to be re-applied.
 
