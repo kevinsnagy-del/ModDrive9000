@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.4.1
+- The Mods tab draws its lists as wide rows across the screen, so plug-in settings show their whole name and value (they were cut short). `ModDrive/moddrive.ini` `[listpage]` `wide=0` brings the old list back.
+- Party panel: a long name or "(away)" no longer runs out of the panel, the rage number is centred and larger, and the player colours are green, cyan, purple and light grey (no more red-looking plate).
+- Performance: plug-ins look game functions up much faster, and periodic full searches of the game's object table were cut down (they caused small hitches every few seconds).
+- Fixed: a co-op floor record with non-English text could be cut in the middle of a character, which crashed every member who joined.
+- Plug-in API: LidHudScalePush / LidHudScalePop (scale a game drawing), LidLevelGen / LidLevelAgeMs (when the level last changed), party panel preview and position for Let Us Die.
+- Update Postmortem to 0.9.12-beta, Let Us Die to 0.9.7-beta, DeatHUD to 1.1.6 and Heavenly Designs to 1.3.2 together with this version.
+
 ## 1.4.0
 - Plug-in API: LidHudTile / LidHudTileEx -- a plug-in can draw any game texture on the HUD, whole or a part of it, with a blend mode (Postmortem 0.9.11-beta needs it for its title logo).
 - Update Postmortem to 0.9.11-beta and Let Us Die to 0.9.6-beta together with this version.
