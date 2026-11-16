@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.3
+- **After a LET IT DIE update:** Mod Drive 9000 can put back the original game files that the update did not replace. Steam only replaces the files its update changes, and an old modded file left behind could stop the updated game from starting. When the app says LET IT DIE was updated, choose **Put the original files back** to play unmodded until a Mod Drive update for the new game version is out. Your saves are backed up first.
+- The plug-ins are unchanged: keep DeatHUD 1.1.7, Heavenly Designs 1.3.3, POSTMORTEM 0.9.13-beta and Let Us Die 0.9.8-beta.
+
 ## 1.4.2
 - Bug reports now carry your whole session logs (compressed), plus the record of where the game was during a freeze. A long session used to arrive with only its last part, which could cut off the problem itself.
 - Fixed: start-up messages no longer take the bug report's problem snapshots, so the snapshots show what went wrong later.
