@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.2
+- Bug reports now carry your whole session logs (compressed), plus the record of where the game was during a freeze. A long session used to arrive with only its last part, which could cut off the problem itself.
+- Fixed: start-up messages no longer take the bug report's problem snapshots, so the snapshots show what went wrong later.
+- Party panel: a teammate's rage number shows again, including 0.
+- Performance report: the "our work" total no longer counts sub-steps twice, and co-op's network work is broken down by part.
+- Update Let Us Die to 0.9.8-beta, POSTMORTEM to 0.9.13-beta, DeatHUD to 1.1.7 and Heavenly Designs to 1.3.3 together with this version.
+
 ## 1.4.1
 - The Mods tab draws its lists as wide rows across the screen, so plug-in settings show their whole name and value (they were cut short). `ModDrive/moddrive.ini` `[listpage]` `wide=0` brings the old list back.
 - Party panel: a long name or "(away)" no longer runs out of the panel, the rage number is centred and larger, and the player colours are green, cyan, purple and light grey (no more red-looking plate).
