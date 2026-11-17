@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.4.4
+- **For the LET IT DIE update of November 2026 (game 5.0.6).** This is the first release that works with it: every download was moved to the new game build. Update all of your mods together.
+- Plug ins are switched on more safely while the game runs: a new hook goes live on the next frame, written while the game's other threads are paused, so a hook can no longer catch the game halfway.
+- A plug in can no longer call into the game from the wrong thread: such a call is refused and written to the log instead of risking a crash.
+- Log lines written at the same moment by two threads no longer overwrite each other.
+- The crash logger now records crashes it used to ignore in a few places.
+- Lighter: the crash flight recorder does a third of the work per game call, and cached object lists refresh a little at a time instead of in one 10 ms step (no more small stutters every half minute).
+- Needed by Heavenly Designs 1.3.4 and Let Us Die 0.9.9-beta.
+
 ## 1.4.3
 - **After a LET IT DIE update:** Mod Drive 9000 can put back the original game files that the update did not replace. Steam only replaces the files its update changes, and an old modded file left behind could stop the updated game from starting. When the app says LET IT DIE was updated, choose **Put the original files back** to play unmodded until a Mod Drive update for the new game version is out. Your saves are backed up first.
 - The plug-ins are unchanged: keep DeatHUD 1.1.7, Heavenly Designs 1.3.3, POSTMORTEM 0.9.13-beta and Let Us Die 0.9.8-beta.
