@@ -51,7 +51,7 @@ Steam replaces the patched game files, so the mods switch off. If the new game v
 
 When support for the new version is out, update and apply in the app. Nothing large is downloaded again, because the mods are rebuilt from your own files.
 
-**Supported game version:** Steam build 25923506 (the 2026-10-20 update).
+**Supported game version:** Steam build 26639365 (game 5.0.6, the November 2026 update).
 
 ## Notes
 
