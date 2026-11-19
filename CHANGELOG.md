@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.4.5
+- **Bug reports send every log in one file:** a logs.tar.gz with the mods' logs, the game's log, the freeze and crash reports, and Mod Drive's own install and app logs (Windows opens it like a folder).
+
 ## 1.4.4
 - **For the LET IT DIE update of November 2026 (game 5.0.6).** This is the first release that works with it: every download was moved to the new game build. Update all of your mods together.
 - Plug ins are switched on more safely while the game runs: a new hook goes live on the next frame, written while the game's other threads are paused, so a hook can no longer catch the game halfway.
