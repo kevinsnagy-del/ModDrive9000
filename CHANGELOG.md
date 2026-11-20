@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.6
+- **Mark a moment for a bug report:** press **Insert** or **End**, or hold **D-pad up** for a second (a tap is still the co-op ping). The moment is written to the log with what the game did just before, and the bug report lists every mark first.
+- Bug reports also list the co-op problem lines (with Let Us Die), and both are kept when the Logs switch is set to errors only.
+- Fixed a crash when the game settles a floor it has already forgotten (seen when leaving a floor by elevator in co-op).
+- New plug-in functions for Let Us Die 0.9.12-beta.
+
 ## 1.4.5
 - **Bug reports send every log in one file:** a logs.tar.gz with the mods' logs, the game's log, the freeze and crash reports, and Mod Drive's own install and app logs (Windows opens it like a folder).
 
