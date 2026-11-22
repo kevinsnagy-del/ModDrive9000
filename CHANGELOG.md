@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.4.7
+- The mark key for bug reports is **End** (or hold **D-pad up** for a second). Insert no longer marks: the game's menus use it for the Y button.
+- Update all your mods together with this version.
+
 ## 1.4.6
 - **Mark a moment for a bug report:** press **Insert** or **End**, or hold **D-pad up** for a second (a tap is still the co-op ping). The moment is written to the log with what the game did just before, and the bug report lists every mark first.
 - Bug reports also list the co-op problem lines (with Let Us Die), and both are kept when the Logs switch is set to errors only.
