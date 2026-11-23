@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.9
+- Update all your mods together with this version (DeatHUD 1.1.12, Heavenly 1.3.8, POSTMORTEM 0.9.19-beta and Let Us Die 0.9.15-beta need it).
+- Mods now always see the CURRENT floor after an elevator or escalator ride. The previous floor stays in memory for a while, and mods could read it by mistake.
+- The co-op ready check list is drawn with the game's own menu art.
+- Checks its own engine offsets at start-up and says so in the log if a game update moved them.
+
 ## 1.4.8
 - Update all your mods together with this version (Let Us Die 0.9.14-beta and POSTMORTEM 0.9.18-beta need it).
 - Mods can hook twice as many game functions (the new co-op and POSTMORTEM versions use more than the old limit allowed).
