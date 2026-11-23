@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.4.8
+- Update all your mods together with this version (Let Us Die 0.9.14-beta and POSTMORTEM 0.9.18-beta need it).
+- Mods can hook twice as many game functions (the new co-op and POSTMORTEM versions use more than the old limit allowed).
+- Safer floor settlement: a deposit the game cannot find stays an error instead of being skipped, which could have written a missing item into your storage.
+
 ## 1.4.7
 - The mark key for bug reports is **End** (or hold **D-pad up** for a second). Insert no longer marks: the game's menus use it for the Y button.
 - Update all your mods together with this version.
