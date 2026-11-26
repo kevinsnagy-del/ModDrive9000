@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.5.0
+- Update all your mods together with this version (Heavenly 1.4.0 needs it).
+- **Choose the renderer:** Settings -> Renderer picks DirectX 9 (what the game has always used) or DirectX 11, from the next game start. DirectX 11 ships with the game but was never switched on. It keeps compiled shaders between sessions, so there are fewer short freezes the first time an effect appears.
+- With Heavenly Designs installed, **Vulkan (DXVK)** is a third choice. Its three files are downloaded from DXVK's own release and placed next to the game. Picking another renderer or uninstalling removes them again, and any file of the same name that was there before is put back.
+- Co-op position updates are sent 20 times a second at any frame rate. With vsync off they used to follow the frame rate.
+- Graphics settings written as a group of values are now replaced whole.
+- **A crash no longer looks like a hang.** The game's own crash reporter tried to reach a network share that does not exist and waited a minute or more for it; it now gives up at once. A crash while the game is already closing ends the game quietly instead.
+- A background memory check runs in the first three sessions of a new version and writes anything it finds to the log, to track down that crash on closing.
+- Plug-ins can read a button the game is told to ignore (needed by Let Us Die's escalator and POSTMORTEM's prayers).
+
 ## 1.4.9
 - Update all your mods together with this version (DeatHUD 1.1.12, Heavenly 1.3.8, POSTMORTEM 0.9.19-beta and Let Us Die 0.9.15-beta need it).
 - Mods now always see the CURRENT floor after an elevator or escalator ride. The previous floor stays in memory for a while, and mods could read it by mistake.
