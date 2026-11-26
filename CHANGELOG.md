@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.1
+- Update all your mods together with this version.
+- Map markers for teammates no longer jump to the middle of the map while a teammate is in a cutscene or loading.
+- The background memory check now runs on every floor and when the game closes. It used to check only the first floor.
+
 ## 1.5.0
 - Update all your mods together with this version (Heavenly 1.4.0 needs it).
 - **Choose the renderer:** Settings -> Renderer picks DirectX 9 (what the game has always used) or DirectX 11, from the next game start. DirectX 11 ships with the game but was never switched on. It keeps compiled shaders between sessions, so there are fewer short freezes the first time an effect appears.
